@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c605a1b78e3d47047842efc7d990941a, type: 3}
+  m_Name: Dragon_Kizil
+  m_EditorClassIdentifier: Assembly-CSharp::DragonDefinition
+  id: kizil
+  stages:
+  - name: Yumurta
+    eggsToNext: 1
+    model: {fileID: 8011676397388143852, guid: 8e997e95409bf6248b917405b552bb9b, type: 3}
+    scaleStart: 1
+    scaleEnd: 1
+    ambientEffect: {fileID: 0}
+  - name: Yavru
+    eggsToNext: 10
+    model: {fileID: 6219337367516584331, guid: cbabf47b360bb35439384a3b7cc14458, type: 3}
+    scaleStart: 1
+    scaleEnd: 1
+    ambientEffect: {fileID: 0}
+  - name: "\xC7ocuk"
+    eggsToNext: 14
+    model: {fileID: 4294097369481183998, guid: de2b8a1846d07f844a8b54db12d101f9, type: 3}
+    scaleStart: 1
+    scaleEnd: 1
+    ambientEffect: {fileID: 0}
+  - name: Ergen
+    eggsToNext: 18
+    model: {fileID: 7918882007820968446, guid: b2df1cc969e8f8143a0131f140874a06, type: 3}
+    scaleStart: 1
+    scaleEnd: 1
+    ambientEffect: {fileID: 0}
+  - name: "Gen\xE7"
+    eggsToNext: 22
+    model: {fileID: 1645294159512766323, guid: f4f679164ba11094db83a96b58e1a19c, type: 3}
+    scaleStart: 1
+    scaleEnd: 1
+    ambientEffect: {fileID: 0}
+  - name: "Yeti\u015Fkin"
+    eggsToNext: 30
+    model: {fileID: 2242217299131902485, guid: 3fd594853bfa42041a49663a18e2d9c1, type: 3}
+    scaleStart: 1
+    scaleEnd: 1
+    ambientEffect: {fileID: 692070582783150662, guid: 25cec5d8b94df9745a1011edf5d2729f, type: 3}
+  - name: "Ya\u015Fl\u0131"
+    eggsToNext: 1
+    model: {fileID: 4463032524647517867, guid: cc5ef8e2314c6744daf4d43fc08ef0d7, type: 3}
+    scaleStart: 1
+    scaleEnd: 1
+    ambientEffect: {fileID: 692070582783150662, guid: 25cec5d8b94df9745a1011edf5d2729f, type: 3}
